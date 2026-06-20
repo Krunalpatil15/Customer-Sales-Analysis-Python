@@ -102,3 +102,22 @@ Customer-Sales-Analysis-Python
 ## Conclusion
 
 This project demonstrates how Python can be used to transform raw sales data into meaningful business insights. Through data cleaning, exploratory analysis, and visualization, the project highlights customer behavior, sales trends, and product performance, helping support data-driven business decisions.
+
+## Author
+
+**Krunal Patil**
+
+MCA Graduate | Aspiring Data Analyst
+
+### Skills
+SQL | Power BI | Excel | Python | Data Visualization | Data Analytics | Machine Learning
+
+### Connect With Me
+
+📧 Email: pkrunalpatil26@gmail.com
+
+💼 LinkedIn: https://linkedin.com/in/krunal-patil-ab10172b9
+
+💻 GitHub: https://github.com/Krunalpatil15
+
+I am passionate about transforming raw data into meaningful insights through analytics, visualization, and business intelligence.
