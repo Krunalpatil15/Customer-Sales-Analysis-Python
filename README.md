@@ -1,54 +1,104 @@
-# 🐍 Customer Sales Analysis Using Python
+# 🐍 Customer Sales Data Analysis Using Python
 
 ## Business Problem
 
-Understanding customer purchasing behavior is essential for improving sales strategies, customer retention, and product performance.
+Businesses generate large amounts of sales data every day. The objective of this project was to analyze customer sales transactions and identify patterns in product performance, regional sales, customer purchasing behavior, and payment preferences to support data-driven decision-making.
 
 ## Project Overview
 
-This project analyzes customer sales data using Python, Pandas, and Matplotlib. The objective was to identify sales trends, customer behavior patterns, and business insights through exploratory data analysis.
-
-## Dataset Description
-
-The dataset contains:
-
-* Customer Data
-* Product Data
-* Sales Transactions
-
-Total Records Analyzed: 30,000+
+This project analyzes customer sales data using Python, Pandas, and Matplotlib. The analysis focuses on understanding sales performance, product trends, regional performance, payment methods, and monthly sales patterns through data visualization and exploratory data analysis (EDA).
 
 ## Tools Used
 
 * Python
 * Pandas
-* NumPy
 * Matplotlib
 * Jupyter Notebook
 
+## Dataset Description
+
+The dataset contains over 30,000 sales records with the following fields:
+
+* OrderID
+* Product
+* Category
+* Price
+* Quantity
+* TotalSales
+* Region
+* City
+* PaymentMethod
+* OrderDate
+
 ## Project Workflow
 
-1. Data Cleaning
-2. Data Preprocessing
+1. Data Collection
+2. Data Cleaning and Preprocessing
 3. Exploratory Data Analysis (EDA)
-4. Data Visualization
-5. Insight Generation
+4. Sales Trend Analysis
+5. Data Visualization
+6. Business Insights Generation
 
 ## Visualizations
 
-(Add Graph and Chart Screenshots Here)
+### Regional Sales Analysis
+
+![Regional Sales](visuals/region_sales.png)
+
+### Top Selling Products
+
+![Top Products](visuals/top_products.png)
+
+### Category-wise Sales Analysis
+
+![Category Sales](visuals/category_sales.png)
+
+### Payment Method Analysis
+
+![Payment Analysis](visuals/payment_sales.png)
+
+### Monthly Sales Trend
+
+![Monthly Sales Trend](visuals/monthly_sales.png)
 
 ## Key Insights
 
-* Identified top-selling products.
-* Analyzed customer purchase behavior.
-* Examined regional sales performance.
-* Discovered sales patterns and trends through visual analysis.
-
-## Conclusion
-
-The analysis provided valuable insights into customer behavior and sales performance, supporting data-driven business decisions.
+* South region generated the highest overall revenue among all regions.
+* Product performance analysis identified the highest revenue-generating products.
+* Category-wise analysis highlighted the most profitable product segments.
+* Digital payment methods such as UPI and Credit Card were preferred by customers.
+* Monthly sales trends revealed fluctuations in customer purchasing behavior throughout the year.
+* Visual analysis helped identify sales patterns and business opportunities.
 
 ## Skills Demonstrated
 
-Python | Pandas | NumPy | Matplotlib | EDA | Data Visualization | Data Analysis
+* Python Programming
+* Pandas
+* Matplotlib
+* Data Cleaning
+* Data Preprocessing
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+* Business Insights Generation
+* Trend Analysis
+
+## Project Structure
+
+Customer-Sales-Analysis-Python
+
+├── dataset/
+│   └── customer_sales_dataset.csv
+
+├── visuals/
+│   ├── region_sales.png
+│   ├── top_products.png
+│   ├── category_sales.png
+│   ├── payment_sales.png
+│   └── monthly_sales.png
+
+├── sales_analysis.ipynb
+└── README.md
+
+## Conclusion
+
+This project demonstrates how Python can be used to transform raw sales data into meaningful business insights. Through data cleaning, exploratory analysis, and visualization, the project highlights customer behavior, sales trends, and product performance, helping support data-driven business decisions.
